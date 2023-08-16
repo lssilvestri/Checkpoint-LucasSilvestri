@@ -1,0 +1,32 @@
+1  git init
+2  git clone https://github.com/lssilvestri/Checkpoint-LucasSilvestri
+3  git branch -m master main
+4  pwd
+5  cd Checkpoint-LucasSilvestri/
+6  touch main.js index.html
+7  git add .
+8  commit -m "commit 01 de Lucas Silvestri"
+9  git commit -m "commit 01 de Lucas Silvestri"
+10  git push
+11  git checkout -b feature
+12  mkdir Hardware Software SeguridaInformatica
+13  cd Hardware/
+14  touch resumen.txt
+15  cd ../
+16  cd Software/
+17  touch resumen.txt
+18  cd ../SeguridaInformatica/
+19  touch resumen.txt
+20  git add .
+21  git commit -m "commit 02 de Lucas Silvestri"
+22  git push origin feature
+23  cd ../
+24  git add .
+25  git commit - m "commit 03 de Lucas Silvestri"
+26  git commit -m "commit 03 de Lucas Silvestri"
+27  git push origin feature
+28  git checkout main
+29  mv ./main.js ./resumenHardware.txt
+30  mv ./index.html ./resumenSoftware.txt
+31  touch comandos.txt
+32  history
